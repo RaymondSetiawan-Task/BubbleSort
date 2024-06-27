@@ -93,7 +93,7 @@ public class BubbleSortNo_4 {
 				}
 			}
 			
-			// Kondisi ketika tidak terjadi pertukaran pada pass tertentu berarti array telah berurutan
+			// Kondisi ketika tidak terjadi pertukaran pada pass berikutnya berarti array telah berurutan
 			// berfungsi untuk mengurangi iterasi yang tidak diperlukan 
 			if (!pertukaran) {
 				System.out.println("Susunan Array telah berurutan");
